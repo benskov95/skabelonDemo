@@ -49,6 +49,11 @@
             </tr>
         </table>
 
+        <form name="register" action="FrontController" method="POST">
+            <input type="hidden" name="taget" value="ko">
+            <input type="submit" value="Træk en ko i halen">
+        </form>
+
 
 <%--        Bare lige se I har en ide om hvad vi forslå I ikke gør ! det hedder scpript lets --%>
 <%--        <% String error = (String) request.getAttribute( "error");--%>
